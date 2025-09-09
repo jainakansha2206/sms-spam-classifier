@@ -1,0 +1,13 @@
+package com.example.sms_spam_classifier;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SmsSpamClassifierApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SmsSpamClassifierApplication.class, args);
+	}
+
+}
